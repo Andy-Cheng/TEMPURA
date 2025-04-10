@@ -2,6 +2,7 @@
   "name": "andy-personal-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andy-cheng.github.io",
   "dependencies": {
     "@craco/craco": "^5.8.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,6 +18,10 @@
     "styled-components": "^5.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy_gh": "gh-pages -d build",
+    "deploy": "npm run add-domain && gh-pages -d build",
+    "add-domain": "echo jen-haocheng.com> build/CNAME",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -36,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
