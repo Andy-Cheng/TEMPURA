@@ -1,0 +1,25 @@
+{
+  "short_name": "Jen-Hao Cheng",
+  "name": "Jen-Hao Cheng",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
