@@ -7,7 +7,7 @@ const ExternalLink = ({ title, link, history }) => {
   useEffect(() => {
     window.open(link, '_blank', 'noopener,noreferrer');
     // Redirect back to home page
-    history.push('/');
+    history.push('/works');
   }, [link, history]);
 
   // Return a non-clickable element that shows the title

@@ -38,12 +38,13 @@ const App = () => (
             flexDirection: 'row',
             justifyContent: 'flex-end'
           }}
+          defaultSelectedKeys={['1']}
         >
           <Item key="1">
-            <Link to="/">Works</Link>
+            <Link to="/">About</Link>
           </Item>
           <Item key="2">
-            <Link to="/about">About</Link>
+            <Link to="/works">Works</Link>
           </Item>
           <Item key="3">
             <a href={cv} target="_blank" rel="noopener noreferrer">
@@ -62,11 +63,11 @@ const App = () => (
           <Route path="/project">
             <Project />
           </Route>
-          <Route path="/about">
-            <About />
+          <Route path="/works">
+            <Works />
           </Route>
           <Route path="/">
-            <Works />
+            <About />
           </Route>
           <Route path="*">
             <NotFound />
