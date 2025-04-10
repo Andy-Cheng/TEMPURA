@@ -30,7 +30,30 @@ The website will be deployed to `https://<your github username>.github.io`.
 
 3. (Optional) Setup a custom domain by adding a `CNAME` file to the `build` folder.
 
-You can also setup a custom domain by adding a `CNAME` file to the `build` folder.
+First, you need to buy a domain name and point it to your github page.
+I used [GoDaddy](https://www.godaddy.com/) to buy my domain name, but their two-step verification process is a bit annoying and will limit your number of edits in 2 hours.
+
+Change your DNS settings for your domain.
+
+<details>
+
+<summary>If you use GoDaddy, you can follow the enclosed steps to edit DNS settings for your new github page.</summary>
+
+1. Login to your GoDaddy account.
+2. Click on the domain name you want to manage.
+3. Click on the `DNS` tab.
+4. Add a new [`A` record](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain).
+
+![A record](docs/A.jpg)
+
+5. Add a new [`CNAME` record](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain).
+
+![CNAME record](docs/CNAME.jpg)
+
+</details>
+
+
+
 Change the scripts/add-domain in `package.json` to your custom domain.
 ```txt
 echo <your custom domain> > build/CNAME
@@ -41,6 +64,10 @@ Run the following command to deploy your website.
 ```bash
 npm run deploy
 ```
+
+Check the website at your custom domain.
+
+
 
 
 ## Common Questions
