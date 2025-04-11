@@ -84,7 +84,7 @@ How to edit my about me page?
 
 How to use my own resume?
 
-1. Edit the `src/Pages/Resume/Resume.js` file.
+1. Edit the `src/Pages/About/About.js` file.
 
 ```js
 import cv from '../src/documents/<your resume name>.pdf';

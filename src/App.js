@@ -5,7 +5,7 @@ import Works from './Pages/Works';
 import Project from './Pages/Project';
 import About from './Pages/About';
 import NotFound from './Pages/NotFound';
-import cv from '../src/documents/Andy_CV_042025.pdf';
+import ComingSoon from './Pages/ComingSoon';
 import './App.less';
 import { Header, Title } from './App.style';
 
@@ -47,9 +47,7 @@ const App = () => (
             <Link to="/works">Works</Link>
           </Item>
           <Item key="3">
-            <a href={cv} target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
+            <Link to="/notes">My Notes</Link>
           </Item>
         </Menu>
       </Header>
@@ -60,6 +58,9 @@ const App = () => (
         }}
       >
         <Switch>
+          <Route path="/notes">
+            <ComingSoon />
+          </Route>
           <Route path="/project">
             <Project />
           </Route>
