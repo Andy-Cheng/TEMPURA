@@ -18,9 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy_gh": "gh-pages -d build",
-    "deploy": "npm run add-domain && gh-pages -d build",
-    "add-domain": "echo jen-haocheng.com/tempura> build/CNAME",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
