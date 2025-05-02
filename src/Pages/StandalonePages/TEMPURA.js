@@ -102,7 +102,6 @@ const TEMPURA = () => {
         },
         {
             name: "Qin Cai",
-            affiliation: 5,
             link: "https://scholar.google.com/citations?user=M_fwZg0AAAAJ"
         },
         {
@@ -128,10 +127,6 @@ const TEMPURA = () => {
         {
             id: 4,
             name: "Microsoft"
-        },
-        {
-            id: 5,
-            name: "Independent Researcher"
         }
     ];
 
