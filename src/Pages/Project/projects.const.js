@@ -1,9 +1,0 @@
-// The List of Projects
-export const HAPTIC_GO_ROUND = 'hapticGoRound';
-export const GAME_ILLUSIONIZATION = 'gameIllusionization';
-export const CENTER_RADAR_NET = 'centerRadarNet';
-export const IMPOSSIBLE_STAIRCASE = 'impossibleStaircase';
-export const CRUW3D = 'CRUW3D';
-export const CRAFTBOOSTER = 'CRAFTBOOSTER';
-export const RTPOSE = 'RTPOSE';
-export const MONOTAKD = 'MONOTAKD';

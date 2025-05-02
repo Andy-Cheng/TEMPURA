@@ -1,8 +1,7 @@
 {
-  "name": "andy-personal-website",
+  "name": "tempura-project-page",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://andy-cheng.github.io",
+  "homepage": "https://andy-cheng.github.io/tempura",
   "dependencies": {
     "@craco/craco": "^5.8.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -21,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy_gh": "gh-pages -d build",
     "deploy": "npm run add-domain && gh-pages -d build",
-    "add-domain": "echo jen-haocheng.com> build/CNAME",
+    "add-domain": "echo jen-haocheng.com/tempura> build/CNAME",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
