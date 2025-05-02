@@ -16,7 +16,7 @@ const Text = styled.div`
 `;
 
 const ComingSoon = () => (
-  <Container>
+  <Container style={{ marginTop: 64 }}>
     <Text>Coming Soon</Text>
   </Container>
 );

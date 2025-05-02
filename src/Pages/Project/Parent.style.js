@@ -41,6 +41,84 @@ export const Title = styled.div`
   text-align: center;
 `;
 
+
+export const PaperTitle = styled.div`
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #262626;
+
+  @media (max-width: 480px) {
+    font-size: 32px;
+  }
+`;
+
+export const PaperShortDescription = styled.div`
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #595959;
+  font-style: italic;
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+`;
+
+export const PaperAuthors = styled.div`
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    color: #ad6800;
+  }
+
+  sup {
+    color: #000000;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 18px;
+  }
+`;
+
+
+export const PaperAuthorOrganizations = styled.div`
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  color: #595959;
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+
+  sup {
+    color: #000000;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+  }
+`;
+
 export const BadgeContainer = styled.div`
   display: flex;
   flex-direction: column;

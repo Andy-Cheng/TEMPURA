@@ -64,7 +64,7 @@ const WORKS = [
 ];
 
 const Works = () => (
-  <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+  <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: 64 }}>
     {WORKS.map(({ title, description, mediaSrc, path, index }) => (
       <Item
         title={title}

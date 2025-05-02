@@ -5,7 +5,7 @@ const { Paragraph: AntdParagraph } = Typography;
 
 const Paragraph = styled(AntdParagraph)`
   width: 100%;
-  margin-top: 32px;
+  margin-top: 16px;
   font-size: 16px;
 `;
 

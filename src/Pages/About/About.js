@@ -19,7 +19,7 @@ import * as PROJECTS from '../Project/projects.const';
 import cv from '../../documents/Andy_CV_042025.pdf';
 import { TimelineItemShort, TimelineItemMedium, TimelineItemLong1, TimelineItemLong2 } from '../../components/Timelines';
 const About = () => (
-    <Container>
+    <Container style={{ marginTop: 64 }}>
         <ContentOuter>
             <ContentInner>
                 <Avatar style={{ marginLeft: "50%", transform: "translateX(-50%)" }} size={150} src={AndyImg} />
@@ -51,7 +51,7 @@ const About = () => (
                     <Typography.Title level={4} italic style={{ marginBottom: "40px", marginTop: "40px", textAlign: "center", fontWeight: "lighter" }}>
                     Life is a journey, and I feel fortunate to have met many incredible people along the way who have helped me grow.
                     </Typography.Title>
-                    <Timeline mode="alternate">
+                    <Timeline mode="alternate" reverse={true}>
                         <TimelineItemShort dot={<HomeOutlined style={{ fontSize: '14px' }} />}>
                             <Typography.Text style={{ color: "orange" }}>
                                 Attended NTU, 2015-09
@@ -247,7 +247,7 @@ const About = () => (
 
                         <TimelineItemLong1>
                             <Typography.Text >
-                                Joined Microsoft as a research intern to work on multi-modal large language models. I was fortunate to have <Anchor href="https://scholar.google.com/citations?user=M_fwZg0AAAAJ" style={{ color: "darkblue" }}>Qin Cai</Anchor>, <Anchor href="https://scholar.google.com/citations?user=jI5oDhYAAAAJ" style={{ color: "darkblue" }}>Yi-Ling Chen</Anchor> and <Anchor href="https://vibhav-vineet.github.io/" style={{ color: "darkblue" }}>Vibhav Vineet</Anchor> as my mentors.
+                                Joined Microsoft as a research intern at the Phi-3 Vision team to work on multi-modal language models. I was fortunate to have <Anchor href="https://scholar.google.com/citations?user=M_fwZg0AAAAJ" style={{ color: "darkblue" }}>Qin Cai</Anchor>, <Anchor href="https://scholar.google.com/citations?user=jI5oDhYAAAAJ" style={{ color: "darkblue" }}>Yi-Ling Chen</Anchor> and <Anchor href="https://vibhav-vineet.github.io/" style={{ color: "darkblue" }}>Vibhav Vineet</Anchor> as my mentors.
                                 <br />
                                 2024-06~2024-12
                             </Typography.Text>
@@ -264,7 +264,7 @@ const About = () => (
                             </Typography.Text>
                         </TimelineItemLong2>
                     </Timeline>
-                    <Typography.Title level={5} style={{ color: "gray", textAlign: "center" }}>
+                    {/* <Typography.Title level={5} style={{ color: "gray", textAlign: "center" }}>
                         .
                         <br />
                         .
@@ -272,7 +272,7 @@ const About = () => (
                         .
                         <br />
                         To be continued...
-                    </Typography.Title>
+                    </Typography.Title> */}
                 </Paragraph>
                 <Typography.Title level={4} style={{ color: "Purple", textAlign: "center" }}>
                     Go Dawgs!

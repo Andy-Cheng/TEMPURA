@@ -48,7 +48,7 @@ const Parent = ({
   honors,
   children
 }) => (
-  <Container>
+  <Container style={{ marginTop: 64 }}>
     <Banner style={{ backgroundImage: `url('${bannerSrc}')` }} />
     <ContentOuter>
       <ContentInner>
