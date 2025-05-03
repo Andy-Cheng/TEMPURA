@@ -1,0 +1,9 @@
+{
+    "exclude": [
+        "data/",
+        "wandb/",
+        "output/",
+        "work_dirs/",
+        "eval_data/",
+    ]
+}
