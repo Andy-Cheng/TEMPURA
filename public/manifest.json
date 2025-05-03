@@ -1,21 +1,16 @@
 {
-  "short_name": "Jen-Hao Cheng",
-  "name": "Jen-Hao Cheng",
+  "short_name": "TEMPURA",
+  "name": "TEMPURA",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "shrimp.ico",
       "sizes": "64x64 32x32",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.jpg",
+      "src": "shrimp192.png",
       "type": "image/jpg",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.jpg",
-      "type": "image/jpg",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
