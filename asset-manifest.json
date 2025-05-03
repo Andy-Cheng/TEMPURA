@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TEMPURA/static/css/main.e96f071d.chunk.css",
-    "main.js": "/TEMPURA/static/js/main.c0fd8bc8.chunk.js",
-    "main.js.map": "/TEMPURA/static/js/main.c0fd8bc8.chunk.js.map",
+    "main.js": "/TEMPURA/static/js/main.42b69b62.chunk.js",
+    "main.js.map": "/TEMPURA/static/js/main.42b69b62.chunk.js.map",
     "runtime-main.js": "/TEMPURA/static/js/runtime-main.5f9b3620.js",
     "runtime-main.js.map": "/TEMPURA/static/js/runtime-main.5f9b3620.js.map",
     "static/js/2.25b2e0fd.chunk.js": "/TEMPURA/static/js/2.25b2e0fd.chunk.js",
     "static/js/2.25b2e0fd.chunk.js.map": "/TEMPURA/static/js/2.25b2e0fd.chunk.js.map",
     "index.html": "/TEMPURA/index.html",
-    "precache-manifest.9bdb155fe52f7395fcaa44583887100a.js": "/TEMPURA/precache-manifest.9bdb155fe52f7395fcaa44583887100a.js",
+    "precache-manifest.d8aee6047824cd85005c55cda230a0a5.js": "/TEMPURA/precache-manifest.d8aee6047824cd85005c55cda230a0a5.js",
     "service-worker.js": "/TEMPURA/service-worker.js",
     "static/css/main.e96f071d.chunk.css.map": "/TEMPURA/static/css/main.e96f071d.chunk.css.map",
     "static/js/2.25b2e0fd.chunk.js.LICENSE.txt": "/TEMPURA/static/js/2.25b2e0fd.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.5f9b3620.js",
     "static/js/2.25b2e0fd.chunk.js",
     "static/css/main.e96f071d.chunk.css",
-    "static/js/main.c0fd8bc8.chunk.js"
+    "static/js/main.42b69b62.chunk.js"
   ]
 }
