@@ -1,0 +1,20 @@
+{
+  "short_name": "TEMPURA",
+  "name": "TEMPURA",
+  "icons": [
+    {
+      "src": "shrimp.ico",
+      "sizes": "64x64 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "shrimp192.png",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
