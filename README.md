@@ -1,8 +1,12 @@
 # TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action
 
+
+
+[Model Weights](https://huggingface.co/andaba/TEMPURA) | [VER Dataset](https://huggingface.co/datasets/andaba/TEMPURA-VER) | [Project Page](https://andy-cheng.github.io/TEMPURA/)
+
 TEMPURA enables video-language models to reason about causal event relationships and generate fine-grained, timestamped descriptions of untrimmed videos.
 
-[Model Weights](https://huggingface.co/andaba/TEMPURA) | [VER Data](https://huggingface.co/datasets/andaba/TEMPURA-VER) | [Project Page](https://andy-cheng.github.io/TEMPURA/)
+![TEMPURA Teaser](assets/teaser.png)
 
 
 
