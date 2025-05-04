@@ -2,7 +2,7 @@
 
 
 
-[Model Weights](https://huggingface.co/andaba/TEMPURA) | [VER Dataset](https://huggingface.co/datasets/andaba/TEMPURA-VER) | [Project Page](https://andy-cheng.github.io/TEMPURA/)
+[Project Page](https://andy-cheng.github.io/TEMPURA/) | [VER Dataset](https://huggingface.co/datasets/andaba/TEMPURA-VER)
 
 TEMPURA enables video-language models to reason about causal event relationships and generate fine-grained, timestamped descriptions of untrimmed videos.
 
@@ -21,6 +21,17 @@ Please refer to [VER Dataset on Hugging Face](https://huggingface.co/datasets/an
 
 
 Place the downloaded JSON files in data/VER/jsons/, and store the processed video frames (from [YT-Temporal-1B](https://rowanzellers.com/merlotreserve/)) in the appropriate directory (data/yt1b/processed_frames). Our experiments used 1 FPS sampling, but you may adjust the frame rate based on your specific needs.
+
+
+## Model Weights
+[TEMPURA-Qwen2.5-VL-3B-s1](https://huggingface.co/andaba/TEMPURA-Qwen2.5-VL-3B-s1)
+
+[TEMPURA-Qwen2.5-VL-3B-s2](https://huggingface.co/andaba/TEMPURA-Qwen2.5-VL-3B-s2)
+
+
+
+
+## Inference
 
 ## Training
 By default, we use DeepSpeed ZeRO-2. You may switch to ZeRO-3 to further reduce GPU memory usage.
@@ -82,9 +93,6 @@ bash scripts/train/dense_event_caption_3B_8H100.sh
 
 </details>
 
-
-
-## Inference & Evaluation
 
 
 
