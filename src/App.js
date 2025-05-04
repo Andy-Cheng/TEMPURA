@@ -19,10 +19,9 @@ const AppLayout = () => {
       >
         <TEMPURA />
       </Content>
-      <Footer style={{ textAlign: 'center' }}>
-        Jen-Hao Cheng, 2025
+      <Footer style={{ textAlign: 'center', backgroundColor: '#ffffff' }}>
         <br />
-        <a href="https://github.com/Andy-Cheng/Andy-Personal-Website" style={{ color: 'darkblue' }}>
+        <a href="https://github.com/Andy-Cheng/TEMPURA/tree/website" style={{ color: 'darkblue' }}>
           Website Source Code
         </a>
       </Footer>

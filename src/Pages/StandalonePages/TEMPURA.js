@@ -58,7 +58,7 @@ const TEMPURA = () => {
         {
             name: "Huapeng Zhou",
             affiliation: 1,
-            link: "https://huapengzhou.github.io/"
+            link: "https://huapengzhou.com/"
         },
         {
             name: "Yi-Hao Peng",
@@ -264,11 +264,15 @@ segments—ultimately creating a dataset for video temporal understanding.
                         whiteSpace: "pre-wrap",
                         backgroundColor: "#f0f0f0",
                         padding: "16px",
-                        borderRadius: "4px"
+                        borderRadius: "4px",
+                        padding: "32px 32px",
                     }}>
                         {`@article{tempura,
     title={TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action},
-    author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu and Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang and Wenhao Chai and Yi-Ling Chen and Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
+    author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu and
+            Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang and Wenhao Chai and Yi-Ling Chen and
+            Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
+    journal={},
     year={2025}
 }`}
                     </div>
