@@ -4,6 +4,7 @@ import Paragraph from '../../components/Paragraph';
 import { FileTextOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { SmallGithubIcon, HFIcon } from '../../components/Icons';
+import Video from '../../components/Video';
 import {
     Container,
     ContentOuter,
@@ -26,7 +27,6 @@ import TEMUPRA_Teaser from '../../images/tempura/teaser.png';
 import TEMUPRA_Training_Pipeline from '../../images/tempura/training_pipeline.png';
 import TEMUPRA_Data_Pipeline from '../../images/tempura/data_pipeline.png';
 import TEMUPRA_Data_Example from '../../images/tempura/sft_data_example.png';
-
 
 const TEMPURA = () => {
     useEffect(() => {
@@ -129,6 +129,9 @@ const TEMPURA = () => {
             name: "Microsoft"
         }
     ];
+
+
+    const TEMUPRA_Video_mando1 = "https://www.youtube.com/watch?v=S7w3TKQf06M";
 
     return (
         <Container>
@@ -246,6 +249,8 @@ segments—ultimately creating a dataset for video temporal understanding.
                     <Paragraph>
                         We finetuned Qwen2.5-VL on VER to train TEMPURA. TEMPURA delivers precise timestamps, fine-grained segmentation, and rich captions—outperforming other models, as shown by the following examples.
                     </Paragraph>
+
+
 
                     <Paragraph>
                         Please check out the paper for more quantitative results.
