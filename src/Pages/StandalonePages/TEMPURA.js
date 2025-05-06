@@ -172,7 +172,7 @@ const TEMPURA = () => {
                     </PaperAuthorOrganizations>
 
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "row wrap", marginTop: "40px" }}>
-                        <Button size="medium" style={{ display: 'flex', alignItems: 'center', marginRight: "8px"}} href="">
+                        <Button size="medium" style={{ display: 'flex', alignItems: 'center', marginRight: "8px"}} href="https://arxiv.org/abs/2505.01583">
                             <FileTextOutlined style={{ marginRight: "4px", display: 'flex', alignItems: 'center', marginTop: "8px" }}/>
                             <span style={{ marginTop: "8px" }}>Preprint</span>
                         </Button>
@@ -307,12 +307,12 @@ segments—ultimately creating a dataset for video temporal understanding.
                         padding: "32px 32px",
                     }}>
                         {`@article{tempura,
-    title={TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action},
-    author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu and
-            Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang and Wenhao Chai and Yi-Ling Chen and
-            Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
-    journal={},
-    year={2025}
+       title={TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action}, 
+       author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu
+              and Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang
+              and Wenhao Chai and Yi-Ling Chen and Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
+       journal={arXiv preprint arXiv:2505.01583},
+       year={2025}
 }`}
                     </div>
                 </ContentInner>
