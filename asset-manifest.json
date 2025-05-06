@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TEMPURA/static/css/main.e23b8509.chunk.css",
-    "main.js": "/TEMPURA/static/js/main.3269e227.chunk.js",
-    "main.js.map": "/TEMPURA/static/js/main.3269e227.chunk.js.map",
+    "main.css": "/TEMPURA/static/css/main.e96f071d.chunk.css",
+    "main.js": "/TEMPURA/static/js/main.ba126904.chunk.js",
+    "main.js.map": "/TEMPURA/static/js/main.ba126904.chunk.js.map",
     "runtime-main.js": "/TEMPURA/static/js/runtime-main.5f9b3620.js",
     "runtime-main.js.map": "/TEMPURA/static/js/runtime-main.5f9b3620.js.map",
     "static/js/2.c1666e4f.chunk.js": "/TEMPURA/static/js/2.c1666e4f.chunk.js",
     "static/js/2.c1666e4f.chunk.js.map": "/TEMPURA/static/js/2.c1666e4f.chunk.js.map",
     "index.html": "/TEMPURA/index.html",
-    "precache-manifest.c23b1c11a67b29ca41845563e4475a0d.js": "/TEMPURA/precache-manifest.c23b1c11a67b29ca41845563e4475a0d.js",
+    "precache-manifest.38e4979d92ea80029e3028d582b8c8a4.js": "/TEMPURA/precache-manifest.38e4979d92ea80029e3028d582b8c8a4.js",
     "service-worker.js": "/TEMPURA/service-worker.js",
-    "static/css/main.e23b8509.chunk.css.map": "/TEMPURA/static/css/main.e23b8509.chunk.css.map",
+    "static/css/main.e96f071d.chunk.css.map": "/TEMPURA/static/css/main.e96f071d.chunk.css.map",
     "static/js/2.c1666e4f.chunk.js.LICENSE.txt": "/TEMPURA/static/js/2.c1666e4f.chunk.js.LICENSE.txt",
     "static/media/data_pipeline.png": "/TEMPURA/static/media/data_pipeline.19430c03.png",
     "static/media/sft_data_example.png": "/TEMPURA/static/media/sft_data_example.e5699354.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5f9b3620.js",
     "static/js/2.c1666e4f.chunk.js",
-    "static/css/main.e23b8509.chunk.css",
-    "static/js/main.3269e227.chunk.js"
+    "static/css/main.e96f071d.chunk.css",
+    "static/js/main.ba126904.chunk.js"
   ]
 }
