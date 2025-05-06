@@ -2,7 +2,7 @@
 
 
 
-[Project Page](https://andy-cheng.github.io/TEMPURA/) | [VER Dataset](https://huggingface.co/datasets/andaba/TEMPURA-VER)
+[Project Page](https://andy-cheng.github.io/TEMPURA/) | [arXiv Preprint](https://arxiv.org/abs/2505.01583) | [VER Dataset](https://huggingface.co/datasets/andaba/TEMPURA-VER)
 
 TEMPURA enables video-language models to reason about causal event relationships and generate fine-grained, timestamped descriptions of untrimmed videos.
 
@@ -130,7 +130,6 @@ If you find our paper or dataset useful, please consider citing our work!
 We build upon the following repositories:
 
 - [Qwen2-VL-Finetune](https://github.com/2U1/Qwen2-VL-Finetune): An amazing open-source project of Qwen2-VL and Qwen2.5-VL finetuning.
-
 - [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT): An amazing open-source project of LMM.
 - [Qwen2.5-VL](https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5): Awesome pretrained MLLM based on Qwen2.5-VL.
 - [Liger-Kernel](https://github.com/linkedin/Liger-Kernel): Collection of Tirton kernels designed specifically for LLM training.
