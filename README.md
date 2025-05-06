@@ -115,16 +115,11 @@ If you find our paper or dataset useful, please consider citing our work!
 
 ```tex
 @article{tempura,
-       title={TEMPURA: Temporal Event Masked Prediction
-and Understanding for Reasoning in Action}, 
-       author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu and
-       Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang and Wenhao Chai and Yi-Ling Chen and
-       Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
-       journal={},
+       title={TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action}, 
+       author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu and Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang and Wenhao Chai and Yi-Ling Chen and Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
+       journal={arXiv preprint arXiv:2505.01583},
        year={2025}
 }
-
-
 ```
 
 
