@@ -32,6 +32,17 @@ Place the downloaded JSON files in data/VER/jsons/, and store the processed vide
 
 
 ## Inference
+An example to generate timestamp-aligned captions.
+``` bash
+python src/inference/dense_video_captioning.py
+```
+
+Demo APP
+``` bash
+python src/serve/app.py
+```
+
+
 
 ## Training
 By default, we use DeepSpeed ZeRO-2. You may switch to ZeRO-3 to further reduce GPU memory usage.
