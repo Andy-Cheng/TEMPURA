@@ -1,0 +1,16 @@
+{
+    "model_path": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "videos_dir": "../event_vlm/eval_data/Charades_v1_480/",
+    "gt_json_file": "data/charades/charades_gt.json",
+    "output_dir": "results/charades",
+    "fps": 1,
+    "max_pixels": 112896,
+    "min_pixels": 112896,
+    "input_type": "images",
+    "add_timestamp": true,
+    "add_time_instruction": true,
+    "overwrite": true,
+    "disable_flash_attn2": false,
+    "verbose": true,
+    "max_items": 100
+}

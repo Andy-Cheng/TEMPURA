@@ -176,3 +176,5 @@ eval_data/
 eval_data
 *.jpg
 tmp.json
+
+results/
