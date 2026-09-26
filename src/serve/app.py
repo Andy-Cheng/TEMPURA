@@ -208,7 +208,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="andaba/TEMPURA-Qwen2.5-VL-3B-s2")
+    parser.add_argument("--model-path", type=str, default="andaba/TEMPURA-Qwen2.5-VL-3B")
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--load-8bit", action="store_true")
     parser.add_argument("--load-4bit", action="store_true")

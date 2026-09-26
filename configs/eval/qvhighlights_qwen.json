@@ -1,0 +1,14 @@
+{
+    "videos_dir": "data/eval/qvhighlights/videos",
+    "gt_json_file": "data/eval/highlight_val_release.jsonl",
+    "output_dir": "results/qvhighlights",
+    "fps": 1.0,
+    "min_pixels": 112896,
+    "max_pixels": 112896,
+    "add_timestamp": true,
+    "add_time_instruction": false,
+    "prompt_type": "vhd_ft",
+    "pipeline": "direct",
+    "max_new_tokens": 256,
+    "clip_length": 2.0
+}

@@ -1,10 +1,22 @@
-tqdm
-ujson
-wandb
-decord
-deepspeed==0.15.4
+# Inference / evaluation stack (tested with Python 3.12, CUDA 12.8)
+# Install torch first with the CUDA build matching your driver, e.g.
+#   pip install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu128
+transformers==5.3.0
+accelerate>=1.10
+huggingface_hub
+safetensors
 numpy
-peft
-tensorboardX
-liger_kernel
-nvitop
+pillow
+tqdm
+scikit-learn
+decord            # video decoding (PyAV is used as a fallback when decord is unavailable)
+av
+sentencepiece
+tiktoken
+einops
+timm
+peft              # only needed by src/utils.py (LoRA merging helper) and the demo app
+# Optional but recommended for speed: FlashAttention-2 (falls back to SDPA automatically when missing)
+#   pip install flash-attn --no-build-isolation
+# Optional, demo UI:
+#   pip install gradio

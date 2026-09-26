@@ -1,0 +1,16 @@
+{
+    "videos_dir": "data/eval/Charades_v1_480",
+    "gt_json_file": "data/eval/charades_sta_test_tvr_format.json",
+    "output_dir": "results/charades",
+    "fps": 1.0,
+    "min_pixels": 112896,
+    "max_pixels": 112896,
+    "add_timestamp": true,
+    "add_time_instruction": false,
+    "prompt_type": "vtg",
+    "max_new_tokens": 512,
+    "max_new_tokens_dvc": 2048,
+    "max_new_tokens_refine": 1024,
+    "min_window_duration": 4.0,
+    "final_windows": "vtg_first"
+}

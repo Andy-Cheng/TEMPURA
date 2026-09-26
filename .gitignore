@@ -169,7 +169,11 @@ logs/*.log
 
 testing.ipynb
 
-data/
+data/*
+!data/eval/
+data/eval/*
+!data/eval/*.json
+!data/eval/*.jsonl
 wandb/
 work_dirs/
 eval_data/
@@ -178,3 +182,18 @@ eval_data
 tmp.json
 
 results/
+# TEMPURA local artifacts
+.venv/
+results/
+data/eval/Charades_v1_480/
+data/eval/qvhighlights/
+data/VER/
+data/yt1b/
+checkpoints/
+.vscode/
+results_base/
+results_*/
+*.log
+__pycache__/
+.venv*/
+hf_cache/
