@@ -38,96 +38,31 @@ const TEMPURA = () => {
         };
     }, []);
 
+    // Author order and affiliations follow the COLM 2026 camera-ready (arXiv:2505.01583).
     const authors = [
-        {
-            name: "Jen-Hao Cheng",
-            link: "https://jen-haocheng.com/",
-            affiliation: 1
-        },
-        {
-            name: "Vivian Wang",
-            affiliation: 1,
-            link: "https://www.linkedin.com/in/vivian-wang-bb14a4225/"
-
-        },
-        {
-            name: "Huayu Wang",
-            affiliation: 1,
-            link: "https://www.linkedin.com/in/huayu-wang-5a68981b6/"
-        },
-        {
-            name: "Huapeng Zhou",
-            affiliation: 1,
-            link: "https://huapengzhou.com/"
-        },
-        {
-            name: "Yi-Hao Peng",
-            affiliation: 2,
-            link: "https://www.yihaopeng.tw/"
-        },
-        {
-            name: "Hou-I Liu",
-            affiliation: 3,
-            link: "https://scholar.google.com.tw/citations?user=7L8K_o0AAAAJ&hl=zh-TW"
-        },
-        {
-            name: "Hsiang-Wei Huang",
-            affiliation: 1,
-            link: "https://hsiangwei0903.github.io/"
-        },
-        {
-            name: "Kuang-Ming Chen",
-            affiliation: 1,
-            link: "https://gorden0413.github.io/"
-        },
-        {
-            name: "Cheng-Yen Yang",
-            affiliation: 1,
-            link: "https://yangchris11.github.io/"
-        },
-        {
-            name: "Wenhao Chai",
-            affiliation: 1,
-            link: "https://wenhaochai.com/"
-        },
-        {
-            name: "Yi-Ling Chen",
-            affiliation: 4,
-            link: "https://scholar.google.com/citations?user=jI5oDhYAAAAJ"
-        },
-        {
-            name: "Vibhav Vineet",
-            affiliation: 4,
-            link: "https://vibhav-vineet.github.io/"
-        },
-        {
-            name: "Qin Cai",
-            link: "https://scholar.google.com/citations?user=M_fwZg0AAAAJ"
-        },
-        {
-            name: "Jenq-Neng Hwang",
-            affiliation: 1,
-            link: "https://people.ece.uw.edu/hwang/"
-        }
+        { name: "Jen-Hao Cheng", affiliation: 1, link: "https://jen-haocheng.com/" },
+        { name: "Yi-Hao Peng", affiliation: 2, link: "https://www.yihaopeng.tw/" },
+        { name: "Huapeng Zhou", affiliation: 1, link: "https://huapengzhou.com/" },
+        { name: "Vivian Wang", affiliation: 1, link: "https://www.linkedin.com/in/vivian-wang-bb14a4225/" },
+        { name: "Huayu Wang", affiliation: 1, link: "https://huayuww.github.io/" },
+        { name: "Hsiang-Wei Huang", affiliation: 1, link: "https://hsiangwei0903.github.io/" },
+        { name: "Wenhao Chai", affiliation: 3, link: "https://wenhaochai.com/" },
+        { name: "Hou-I Liu", affiliation: 4, link: "https://www.linkedin.com/in/hoiliu0801/" },
+        { name: "Kuang-Ming Chen", affiliation: 1, link: "https://gorden0413.github.io/" },
+        { name: "Cheng-Yen Yang", affiliation: 1, link: "https://yangchris11.github.io/" },
+        { name: "Yi-Ling Chen", affiliation: 5, link: "https://www.linkedin.com/in/yiling-chen-tw" },
+        { name: "Vibhav Vineet", affiliation: 5, link: "https://vibhav-vineet.github.io/" },
+        { name: "Qin Cai", affiliation: 6, link: "https://www.linkedin.com/in/qin-cai-4329a195" },
+        { name: "Jenq-Neng Hwang", affiliation: 1, link: "https://people.ece.uw.edu/hwang/" }
     ];
 
     const affiliations = [
-        {
-            id: 1,
-            name: "University of Washington"
-        },
-        {
-            id: 2,
-            name: "Carnegie Mellon University"
-        },
-        {
-            id: 3,
-            name: "National Yang Ming Chiao Tung University"
-        },
-        {
-            id: 4,
-            name: "Microsoft"
-        }
+        { id: 1, name: "University of Washington" },
+        { id: 2, name: "Carnegie Mellon University" },
+        { id: 3, name: "Princeton University" },
+        { id: 4, name: "National Yang Ming Chiao Tung University" },
+        { id: 5, name: "Microsoft" },
+        { id: 6, name: "Independent Researcher" }
     ];
 
     return (
@@ -147,6 +82,9 @@ const TEMPURA = () => {
                             TEMPURA: Temporal Event Masked Prediction
                             and Understanding for Reasoning in Action
                     </PaperTitle> 
+                    <div style={{ textAlign: "center", fontSize: "18px", fontWeight: "500", color: "#8c8c8c", marginBottom: "8px" }}>
+                        Conference on Language Modeling (COLM) 2026
+                    </div>
                     <PaperShortDescription>
                     TEMPURA enables video-language models to reason about causal event relationships and generate fine-grained, timestamped descriptions of untrimmed videos.
                     </PaperShortDescription>
@@ -174,7 +112,7 @@ const TEMPURA = () => {
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "row wrap", marginTop: "40px" }}>
                         <Button size="medium" style={{ display: 'flex', alignItems: 'center', marginRight: "8px"}} href="https://arxiv.org/abs/2505.01583">
                             <FileTextOutlined style={{ marginRight: "4px", display: 'flex', alignItems: 'center', marginTop: "8px" }}/>
-                            <span style={{ marginTop: "8px" }}>Preprint</span>
+                            <span style={{ marginTop: "8px" }}>Paper</span>
                         </Button>
 
                         <Button size="medium" style={{ display: 'flex', alignItems: 'center', marginRight: "8px"}} href="https://github.com/Andy-Cheng/TEMPURA">
@@ -182,9 +120,14 @@ const TEMPURA = () => {
                             <span style={{ marginTop: "8px" }}>Code</span>
                         </Button>
 
-                        <Button size="medium" style={{ display: 'flex', alignItems: 'center'}} href="https://huggingface.co/datasets/andaba/TEMPURA-VER">
+                        <Button size="medium" style={{ display: 'flex', alignItems: 'center', marginRight: "8px"}} href="https://huggingface.co/datasets/andaba/TEMPURA-VER">
                             <HFIcon style={{ marginRight: "4px", display: 'flex', alignItems: 'center', marginTop: "8px" }}/>
                             <span style={{ marginTop: "8px" }}>Data</span>
+                        </Button>
+
+                        <Button size="medium" style={{ display: 'flex', alignItems: 'center'}} href="https://huggingface.co/collections/andaba/tempura-681c325777c23f72666a0995">
+                            <HFIcon style={{ marginRight: "4px", display: 'flex', alignItems: 'center', marginTop: "8px" }}/>
+                            <span style={{ marginTop: "8px" }}>Models</span>
                         </Button>
                     </div>
 
@@ -199,7 +142,7 @@ const TEMPURA = () => {
                         Paper Abstract
                     </Title>
                     <Paragraph>
-                    Understanding causal event relationships and achieving fine-grained temporal grounding in videos remain challenging for vision-language models. Existing methods either compress video tokens to reduce temporal resolution, or treat videos as unsegmented streams, which obscures fine-grained event boundaries and limits the modeling of causal dependencies. We propose TEMPURA (Temporal Event Masked Prediction and Understanding for Reasoning in Action), a two-stage training framework that enhances video temporal understanding. TEMPURA first applies masked event prediction reasoning to reconstruct missing events and generate step-by-step causal explanations from dense event annotations, drawing inspiration from effective infilling techniques. TEMPURA then learns to perform video segmentation and dense captioning to decompose videos into non-overlapping events with detailed, timestamp-aligned descriptions. We train TEMPURA on VER, a large-scale dataset curated by us that comprises 1M training instances and 500K videos with temporally aligned event descriptions and structured reasoning steps. Experiments on temporal grounding and highlight detection benchmarks demonstrate that TEMPURA outperforms strong baseline models, confirming that integrating causal reasoning with fine-grained temporal segmentation leads to improved video understanding.
+                    Understanding causal event relationships and achieving fine-grained temporal grounding in videos remain challenging for vision-language models (VLMs). We propose TEMPURA (Temporal Event Masked Prediction and Understanding for Reasoning in Action), a two-stage training framework that enhances the video temporal understanding of VLMs. Inspired by infilling techniques in language modeling, TEMPURA first performs masked event prediction, learning to reconstruct missing events and generate step-by-step causal explanations from dense event annotations. It then learns video segmentation and dense captioning, decomposing videos into non-overlapping events with detailed, timestamp-aligned descriptions. We train TEMPURA on VER, our large-scale dataset of 500K videos annotated with temporally aligned event descriptions and structured reasoning steps. Experiments on video temporal grounding and highlight detection benchmarks show that TEMPURA substantially improves strong base VLMs across model families and scales, confirming that combining event-level reasoning with fine-grained temporal segmentation is an effective recipe for video temporal understanding.
                     </Paragraph>
                     
                     <Image src={TEMUPRA_Teaser} />
@@ -244,7 +187,7 @@ segments—ultimately creating a dataset for video temporal understanding.
                         TEMPURA Model
                     </Title>
                     <Paragraph>
-                    We fine-tuned Qwen2.5-VL on the VER dataset to train TEMPURA. Compared to the baseline model, TEMPURA provides more precise timestamps and generates finer-grained event descriptions. In the following video examples, the closed captions are generated by models.
+                    We train TEMPURA on the VER dataset on top of Qwen2.5-VL (3B, 7B) and InternVL3 (2B, 8B). Compared to the base models, TEMPURA provides more precise timestamps and generates finer-grained event descriptions. Checkpoints, inference code and the benchmark-evaluation pipeline are released on <a href="https://huggingface.co/collections/andaba/tempura-681c325777c23f72666a0995">Hugging Face</a> and <a href="https://github.com/Andy-Cheng/TEMPURA">GitHub</a>. In the following video examples, the closed captions are generated by the models.
                     </Paragraph>
                     <Title style={{ marginTop: "8px", fontSize: "24px" }}>
                         Examples
@@ -287,7 +230,7 @@ segments—ultimately creating a dataset for video temporal understanding.
                     </Title>
                     <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/p979hTHKJoE?si=8k8bUyb67_JAwhk9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <Paragraph>
-                        Please check out the paper for more quantitative results.
+                        Please check out the paper for quantitative results on Charades-STA temporal grounding and QVHighlights highlight detection, and the GitHub repository for the end-to-end inference and evaluation pipeline.
                     </Paragraph>      
 
                     <div style={{ color: "black", marginBottom: "12px", marginTop: "12px", textAlign: "center", fontSize: "24px", fontWeight: "400" }}>
@@ -306,13 +249,12 @@ segments—ultimately creating a dataset for video temporal understanding.
                         borderRadius: "4px",
                         padding: "32px 32px",
                     }}>
-                        {`@article{tempura,
-       title={TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action}, 
-       author={Jen-Hao Cheng and Vivian Wang and Huayu Wang and Huapeng Zhou and Yi-Hao Peng and Hou-I Liu
-              and Hsiang-Wei Huang and Kuang-Ming Chen and Cheng-Yen Yang
-              and Wenhao Chai and Yi-Ling Chen and Vibhav Vineet and Qin Cai and Jenq-Neng Hwang},
-       journal={arXiv preprint arXiv:2505.01583},
-       year={2025}
+                        {`@inproceedings{
+cheng2026tempura,
+title={{TEMPURA}: Temporal Event Masked Prediction and Understanding for Reasoning in Action},
+author={Cheng, Jen-Hao and Peng, Yi-Hao and Zhou, Huapeng and Wang, Vivian and Wang, Huayu and Huang, Hsiang-Wei and Chai, Wenhao and Liu, Hou-I and Chen, Kuang-Ming and Yang, Cheng-Yen and Chen, Yi-Ling and Vineet, Vibhav and Cai, Qin and Hwang, Jenq-Neng},
+booktitle={Third Conference on Language Modeling},
+year={2026}
 }`}
                     </div>
                 </ContentInner>
