@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42b44e758196cbfa41d862727ac717e5",
+    "revision": "a1ddf8eeb063200369fe3d1f481308d0",
     "url": "/TEMPURA/index.html"
   },
   {
-    "revision": "0d4991e7351f115b88f8",
+    "revision": "502fba1aaee824fa6e07",
     "url": "/TEMPURA/static/css/main.e96f071d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TEMPURA/static/js/2.c1666e4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d4991e7351f115b88f8",
-    "url": "/TEMPURA/static/js/main.ba126904.chunk.js"
+    "revision": "502fba1aaee824fa6e07",
+    "url": "/TEMPURA/static/js/main.94a0c57c.chunk.js"
   },
   {
     "revision": "b09b9199d786a207de11",

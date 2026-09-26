@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TEMPURA/precache-manifest.38e4979d92ea80029e3028d582b8c8a4.js"
+  "/TEMPURA/precache-manifest.1fad7ea122abebb47b05529e1f5170dd.js"
 );
 
 self.addEventListener('message', (event) => {
