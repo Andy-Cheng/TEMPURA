@@ -91,7 +91,9 @@ All commands below are run from the repository root with `PYTHONPATH=.` (the she
 | TEMPURA-InternVL3-8B | [OpenGVLab/InternVL3-8B-hf](https://huggingface.co/OpenGVLab/InternVL3-8B-hf) | 0.5 fps, one 448×448 tile per frame | [andaba/TEMPURA-InternVL3-8B](https://huggingface.co/andaba/TEMPURA-InternVL3-8B) |
 
 All checkpoints expect the video as a sequence of frames with the timestamp (seconds) drawn on the top-left
-corner of every frame; `src/inference/video_utils.py` produces exactly this input. The 3B checkpoints of the
+corner of every frame; `src/inference/video_utils.py` produces exactly this input. Each checkpoint is released
+under the license of its base model (Qwen2.5-VL-3B: [Qwen Research License](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/blob/main/LICENSE);
+Qwen2.5-VL-7B: Apache-2.0; InternVL3-2B/8B: [Qwen License](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE)); see the model cards. The 3B checkpoints of the
 preprint ([-s1](https://huggingface.co/andaba/TEMPURA-Qwen2.5-VL-3B-s1), [-s2](https://huggingface.co/andaba/TEMPURA-Qwen2.5-VL-3B-s2)) remain available.
 
 ### Results
